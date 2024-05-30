@@ -7,7 +7,7 @@
     font-weight: 300;
 }
 
-#scheduleView {
+#pageContent {
     width: 100%;
     height: calc(100% - 22em - 1px);
 
