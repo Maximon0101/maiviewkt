@@ -1,0 +1,28 @@
+.titleText {
+    font-size: 4em;
+}
+
+.onBackground60Text {
+    color: var(--onBackground60);
+}
+
+#lessonNumber {
+    margin-top: 0.155em;
+}
+
+.lessonName {
+    font-size: 2.8em;
+
+    color: var(--onBackground);
+}
+
+.lessonInfo {
+    font-size: 2.25em;
+    font-weight: 300;
+
+    color: var(--onSecondaryContainer);
+}
+
+.lessonLocation {
+    color: var(--onBackground);
+}
