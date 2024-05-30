@@ -8,6 +8,7 @@ import io.ktor.server.resources.Resources
 import io.ktor.server.routing.*
 import kotlinx.serialization.Serializable
 import pro.maximon.routes.index
+import pro.maximon.routes.info
 import pro.maximon.routes.settings
 
 fun Application.configureRouting() {
@@ -18,6 +19,7 @@ fun Application.configureRouting() {
         staticResources("/static", "static")
         index()
         settings()
+        info()
     }
 }
 
