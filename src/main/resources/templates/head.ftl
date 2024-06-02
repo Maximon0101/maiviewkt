@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/static/styles/fragments/bottomNavigation.css">
     <link rel="stylesheet" href="/static/styles/fragments/buttons.css">
     <link rel="stylesheet" href="/static/styles/fragments/card.css">
+    <link rel="stylesheet" href="/static/styles/fragments/inputs.css">
     <script src="https://kit.fontawesome.com/2af22d8f17.js" crossorigin="anonymous"></script>
     <title>MAI View</title>
 </head>

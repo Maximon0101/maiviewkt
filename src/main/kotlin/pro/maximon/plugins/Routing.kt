@@ -7,10 +7,7 @@ import io.ktor.server.plugins.autohead.*
 import io.ktor.server.resources.Resources
 import io.ktor.server.routing.*
 import kotlinx.serialization.Serializable
-import pro.maximon.routes.chooseGroup
-import pro.maximon.routes.index
-import pro.maximon.routes.info
-import pro.maximon.routes.settings
+import pro.maximon.routes.*
 
 fun Application.configureRouting() {
     install(Resources)
@@ -21,7 +18,7 @@ fun Application.configureRouting() {
         index()
         settings()
         info()
-        chooseGroup()
+        selectGroup()
     }
 }
 

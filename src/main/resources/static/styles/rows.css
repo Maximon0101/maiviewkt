@@ -22,3 +22,6 @@
 .row-space-around {
     justify-content: space-around;
 }
+.row-100 {
+    width: 100%;
+}

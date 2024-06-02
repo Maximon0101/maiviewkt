@@ -4,10 +4,10 @@ import io.ktor.server.application.*
 import io.ktor.server.freemarker.*
 import io.ktor.server.routing.*
 
-fun Routing.chooseGroup (){
-    route("/chooseGroup") {
+fun Routing.selectGroup (){
+    route("/selectGroup") {
         get {
-            call.respondTemplate("chooseGroup.ftl")
+            call.respondTemplate("selectGroup.ftl")
         }
     }
 }
