@@ -6,8 +6,7 @@
                 </div>
             </a>
             <a href="/schedule">
-                <div class="button button-navigation <#if page == "schedule">button-navigation-selected </#if>" id="navigationButtonSchedule"><i
-                            class="fa-regular fa-calendar"></i></div>
+                <div class="button button-navigation <#if page == "schedule">button-navigation-selected </#if>" id="navigationButtonSchedule"><i class="fa-regular fa-calendar"></i></div>
             </a>
             <a href="/settings">
                 <div class="button button-navigation <#if page == "settings">button-navigation-selected </#if>" id="navigationButtonSettings"><i class="fa-solid fa-gear"></i>

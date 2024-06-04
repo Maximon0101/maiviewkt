@@ -10,6 +10,12 @@
     cursor: pointer;
 }
 
+.button-disable {
+    background: transparent;
+    color: var(--onBackground60);
+    border: 3px solid var(--onBackground60);
+}
+
 .button-text {
     background: transparent;
     color: var(--primary);
@@ -34,6 +40,10 @@
     background: var(--secondary10)!important;
 }
 
+.button-sides_1_5em {
+    margin: 0 1.5em;
+}
+
 #bottomBackButton {
     margin-left: 1em;
     border-radius: 1.75em;
@@ -42,6 +52,6 @@
     color: var(--secondary);
 }
 
-.bottomBackButton:hover {
+#bottomBackButton:hover {
     background: var(--secondary20)!important;
 }

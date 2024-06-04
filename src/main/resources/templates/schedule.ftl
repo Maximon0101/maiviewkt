@@ -1,6 +1,6 @@
 <#include "head.ftl"/>
-<#include "scheduleDay.ftl"/>
 <#include "header.ftl"/>
+<#include "scheduleDay.ftl"/>
 <#include "navigation.ftl"/>
 
 <@header title="Расаписание" subtitle=schedule.name buttonText="Выбор недели"/>
