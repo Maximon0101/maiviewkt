@@ -1,5 +1,7 @@
 package pro.maximon.localization
 
+import ru.lavafrai.mai.api.models.group.GroupNameAnalyzer
+import ru.lavafrai.mai.api.models.group.GroupType
 import ru.lavafrai.mai.api.models.schedule.LessonType
 import ru.lavafrai.mai.api.models.time.Date
 import ru.lavafrai.mai.api.models.time.DayOfWeek
@@ -45,6 +47,19 @@ class ScheduleLocalizer {
             11 -> "Ноября"
             12 -> "Декабря"
             else -> ""
+        }
+    }
+
+    fun groupTypeLocalize(group: GroupNameAnalyzer): String {
+        return when (group.type) {
+            GroupType.BACHELOR -> "Бакалавриат"
+            GroupType.MAGISTRACY -> "Магистратура"
+            GroupType.SPECIAL -> "Специалитет"
+            GroupType.POSTGRADUATE -> "Аспирантура"
+            GroupType.BASE_HIGH -> "Базовое высшее образование"
+            GroupType.SPECIAL_HIGH -> "Специальное высшее образование"
+            GroupType.SERVICE -> ""
+            null -> ""
         }
     }
 }
