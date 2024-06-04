@@ -3,10 +3,18 @@ function saveGroup(groupName){
 }
 
 function loadGroup(){
-    var storedGroup= localStorage.getItem('group');
 
-    return storedGroup === null ? '' : storedGroup.toString() ;
+    return localStorage.getItem('group');
+    //=== null ? '' : storedGroup.toString() ;
 
+}
+
+function saveGroupsList(list){
+    localStorage.setItem('groupsList',JSON.stringify(list));
+}
+
+function loadGroupsList(){
+    return JSON.parse(localStorage.getItem('groupsList'));
 }
 
 //на будущее сюды надо добавить сохранение темы, как займемся настройками
