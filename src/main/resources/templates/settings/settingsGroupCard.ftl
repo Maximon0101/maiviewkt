@@ -10,5 +10,9 @@
             <div class="settingsInfo">Ваша группа</div>
             <div class="spacer_1em"></div>
         </div>
+        <div class="spacer_1em"></div> //todo -> add group name
+        <div class="button button-contentCenter">Обновить расписание</div>
+        <div class="spacer_1em"></div>
+        <div class="button">Добавить группу</div>
     </div>
 </#macro>

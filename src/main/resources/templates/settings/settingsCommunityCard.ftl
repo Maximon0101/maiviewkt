@@ -14,7 +14,8 @@
         </div>
         <div class="spacer_1_5em"></div>
         <div class="row row-contentCenter">
-            <a href="https://t.me/maiapp3" target="_blank" class="button button-text button-settingsLinks">Открыть Telegram</a>
+            <a href="https://t.me/maiapp3" target="_blank"
+               class="button button-text button-settingsLinks">Открыть Telegram</a>
         </div>
     </div>
 </#macro>

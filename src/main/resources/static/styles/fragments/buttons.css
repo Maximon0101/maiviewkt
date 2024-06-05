@@ -66,3 +66,7 @@
 
     cursor:pointer;
 }
+
+.button-contentCenter {
+    justify-content: center;
+}
