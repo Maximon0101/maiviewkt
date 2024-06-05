@@ -19,6 +19,10 @@
     justify-content: flex-end;
 }
 
+.row-contentCenter {
+    justify-content: center;
+}
+
 .row-space-between {
     justify-content: space-between;
 }

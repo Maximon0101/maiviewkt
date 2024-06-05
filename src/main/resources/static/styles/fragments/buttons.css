@@ -55,3 +55,14 @@
 #bottomBackButton:hover {
     background: var(--secondary20)!important;
 }
+
+.button-telegram {
+    text-decoration: none;
+}
+
+.button-telegram:hover {
+    background: var(--primary10);
+    text-decoration: none;
+
+    cursor:pointer;
+}
