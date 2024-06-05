@@ -46,3 +46,10 @@
 
     color: var(--onBackground60);
 }
+
+.textInButton {
+    font-size: 1em;
+    font-weight: 500;
+
+    color: var(--onPrimary);
+}
