@@ -56,11 +56,11 @@
     background: var(--secondary20)!important;
 }
 
-.button-telegram {
+.button-settingsLinks {
     text-decoration: none;
 }
 
-.button-telegram:hover {
+.button-settingsLinks:hover {
     background: var(--primary10);
     text-decoration: none;
 
