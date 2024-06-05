@@ -1,9 +1,4 @@
 .input {
-    width: 80%;
-    margin: 1em 10%;
-    padding: 0.2em 0.1em;
-    font-size: 2.9em;
-
     color: var(--onBackground);
     background-color: var(--background);
 
@@ -13,4 +8,12 @@
 
 .input:focus {
     border: 2px solid var(--onTertiaryContainer);
+}
+
+.inputAddGroup {
+    width: 80%;
+    margin: 1em 10%;
+
+    padding: 0.2em 0.1em;
+    font-size: 2.9em;
 }

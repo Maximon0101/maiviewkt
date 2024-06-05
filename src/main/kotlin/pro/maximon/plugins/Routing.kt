@@ -18,7 +18,7 @@ fun Application.configureRouting() {
         index()
         settings()
         info()
-        selectGroup()
+        addGroup()
     }
 }
 

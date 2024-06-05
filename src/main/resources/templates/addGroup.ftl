@@ -4,6 +4,6 @@
 
 <@header title="Добавление группы"/>
 <div id="pageContent">
-    <input class="input" id="addGroupInput" type="text" size="40">
+    <input class="input inputAddGroup" id="addGroupInput" type="text" size="40">
 </div>
 <@bottomButtons/>
