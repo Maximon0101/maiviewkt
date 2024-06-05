@@ -11,13 +11,21 @@ import ru.lavafrai.mai.api.models.group.Group
 import ru.lavafrai.mai.api.models.group.GroupNameAnalyzer
 
 fun Routing.settings() {
-    get ("/settings/{schedule}"){
+    get("/settings/{schedule}") {
         val scheduleName = call.parameters["schedule"]!!
         val scheduleNameEncoded = java.net.URLEncoder.encode(scheduleName, "utf-8")
 
-        val groupName = Group(scheduleName).name ?: run { call.response.status(HttpStatusCode.NotFound) ; return@get }
+        val groupName = Group(scheduleName).name ?: run { call.response.status(HttpStatusCode.NotFound); return@get }
         val groupData = GroupNameAnalyzer(groupName);
 
-        call.respondTemplate("settings.ftl", mapOf("groupName" to groupName, "groupData" to groupData, "localizer" to ScheduleLocalizer(), "scheduleName" to scheduleNameEncoded))
+        call.respondTemplate(
+            "/settings/settings.ftl",
+            mapOf(
+                "groupName" to groupName,
+                "groupData" to groupData,
+                "localizer" to ScheduleLocalizer(),
+                "scheduleName" to scheduleNameEncoded
+            )
+        )
     }
 }

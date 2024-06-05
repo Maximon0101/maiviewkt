@@ -1,7 +1,7 @@
-<#include "head.ftl"/>
-<#include "header.ftl"/>
+<#include "../head.ftl"/>
+<#include "../header.ftl"/>
 <#include "scheduleDay.ftl"/>
-<#include "navigation.ftl"/>
+<#include "../navigation.ftl"/>
 
 <@header title="Расаписание" subtitle=schedule.name buttonText="Выбор недели"/>
 <div id="pageContent">

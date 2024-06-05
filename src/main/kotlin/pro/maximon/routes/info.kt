@@ -6,9 +6,7 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 fun Routing.info() {
-    route("/info") {
-        get {
-            call.respondTemplate("info.ftl")
-        }
+    get("/info") {
+        call.respondTemplate("/info/info.ftl")
     }
 }

@@ -1,7 +1,7 @@
-<#include "head.ftl"/>
-<#include "header.ftl"/>
+<#include "../head.ftl"/>
+<#include "../header.ftl"/>
 <#include "settingsGroupCard.ftl"/>
-<#include "navigation.ftl"/>
+<#include "../navigation.ftl"/>
 
 <@header title="Настройки"/>
     <div id="pageContent">
