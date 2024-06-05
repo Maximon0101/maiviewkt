@@ -3,7 +3,8 @@
 <#include "settingsGroupCard.ftl"/>
 <#include "settingsCommunityCard.ftl"/>
 <#include "settingsOpensourceCard.ftl"/>
-<#include "settingsDonationCard.ftl"/>\
+<#include "settingsDonationCard.ftl"/>
+<#include "settingsResetButton.ftl"/>
 <#include "settingsAuthor.ftl"/>
 <#include "../navigation.ftl"/>
 
@@ -14,6 +15,8 @@
         <@settingsCommunityCard/>
         <@settingsOpensourceCard/>
         <@settingsDonationCard/>
+        <div class="spacer_1em"></div>
+        <@settingsResetButton/>
         <div class="spacer_4em"></div>
         <@settingsAuthor/>
         <div class="spacer_2em"></div>
