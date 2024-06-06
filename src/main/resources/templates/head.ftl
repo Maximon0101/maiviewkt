@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/static/styles/styles.css">
-    <link rel="stylesheet" href="/static/styles/colors-dark-blue.css">
+    <link rel="stylesheet" href="/static/styles/colors/colors-dark-blue.css">
     <link rel="stylesheet" href="/static/styles/alignment.css">
     <link rel="stylesheet" href="/static/styles/rows.css">
     <link rel="stylesheet" href="/static/styles/columns.css">
