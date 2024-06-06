@@ -19,6 +19,7 @@ fun Application.configureRouting() {
         settings()
         info()
         addGroup()
+        data()
     }
 }
 

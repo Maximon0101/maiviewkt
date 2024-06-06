@@ -60,6 +60,17 @@
     background: var(--secondary20)!important;
 }
 
+#topBackButton {
+    margin-right: 1em;
+
+    border-radius: 1.5em;
+    font-size: 4em;
+    font-weight: 300;
+
+    transition: all 0.3s;
+    color: var(--onBackground);
+}
+
 .button-settingsLinks {
     text-decoration: none;
 }
