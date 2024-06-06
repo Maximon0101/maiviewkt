@@ -8,7 +8,7 @@ body {
     --secondary10: #51606f16;
     --secondary20: #51606f33;
     --onSecondary: #ffffff;
-    --secondaryContainer: #d4e4f6;
+    --secondaryContainer: #c4e4f5;
     --onSecondaryContainer: #0d1d2a;
     --tertiary: #006397;
     --onTertiary: #ffffff;
@@ -18,7 +18,7 @@ body {
     --errorContainer: #ffdad6;
     --onError: #ffffff;
     --onErrorContainer: #410002;
-    --background: #f5ece8;
+    --background: #ffffff;
     --onBackground: #001d31;
     --onBackground60: #807a79;
     --onBackground80: #001d3164;
@@ -27,7 +27,7 @@ body {
     --surfaceVariant: #f7f9ff;
     --onSurfaceVariant: #42474e;
     --outline: #72787e;
-    --inverseOnSurface: #ebebe9;
+    --inverseOnSurface: #ddeded;
     --inverseSurface: #2d3135;
     --inversePrimary: #99ccfa;
     --shadow: #000000;

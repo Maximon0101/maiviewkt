@@ -32,13 +32,13 @@
 }
 
 .settingsName {
-    font-size: 3.2em;
+    font-size: 3.7em;
 
     color: var(--onBackground);
 }
 
 .settingsInfo {
-    font-size: 2.4em;
+    font-size: 2.8em;
     font-weight: 300;
 
     color: var(--onSecondaryContainer);
@@ -49,6 +49,15 @@
     font-weight: 300;
 
     color: var(--onBackground60);
+}
+
+.infoTitle {
+    font-weight: 500;
+}
+
+.infoCardText {
+    font-size: 2.8em;
+    font-weight: 500;
 }
 
 .textInButton {

@@ -71,6 +71,12 @@
     cursor:pointer;
 }
 
+.button-infoLink {
+    text-decoration: none !important;
+
+    color: var(--onBackground) !important;
+}
+
 .button-alarm {
     color: var(--onErrorContainer);
     background: var(--errorContainer);

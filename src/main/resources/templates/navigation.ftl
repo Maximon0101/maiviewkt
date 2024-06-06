@@ -1,7 +1,7 @@
 <#macro navigation page>
     <div id="bottomNavigation">
         <div class="row row-center row-space-around fill-max-size">
-            <a href="/info">
+            <a href="/info/${ scheduleName }">
                 <div class="button button-navigation <#if page == "info">button-navigation-selected </#if>" id="navigationButtonInfo"><i class="fa-solid fa-circle-info"></i>
                 </div>
             </a>

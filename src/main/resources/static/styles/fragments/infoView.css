@@ -1,0 +1,4 @@
+.infoColumn {
+    width: calc(100% - 4em);
+    margin: 2em 2em;
+}
