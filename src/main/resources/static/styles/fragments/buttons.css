@@ -29,7 +29,7 @@
 .button-navigation {
     padding: 0.5em 1.5em;
     background: transparent;
-    color: var(--secondary);
+    color: var(--onPrimaryContainer);
 }
 
 .button-navigation:hover {

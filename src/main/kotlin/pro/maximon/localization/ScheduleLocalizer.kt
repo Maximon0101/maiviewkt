@@ -21,10 +21,10 @@ class ScheduleLocalizer {
 
     fun lessonTypeLocalize(lessonType: LessonType): String {
         return when (lessonType) {
-            LessonType.LECTURE -> "Лекция"
-            LessonType.SEMINAR -> "Семинар"
-            LessonType.EXAM -> "Экзамен"
-            LessonType.LABORATORY -> "Лабораторная"
+            LessonType.LECTURE -> "ЛЕКЦИЯ"
+            LessonType.SEMINAR -> "СЕМИНАР"
+            LessonType.EXAM -> "ЭКЗАМЕН"
+            LessonType.LABORATORY -> "ЛАБАРАТОРНАЯ"
             LessonType.Unknown -> ""
         }
     }

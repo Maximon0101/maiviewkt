@@ -27,6 +27,10 @@
     color: var(--onBackground);
 }
 
+.lessonType {
+    color: var(--onSecondaryContainer);
+}
+
 .settingsName {
     font-size: 3.2em;
 

@@ -13,9 +13,11 @@
         <@settingsGroupCard groupData=groupData/>
         <div class="spacer_4em"></div>
         <@settingsCommunityCard/>
+        <div class="spacer_0_2em"></div>
         <@settingsOpensourceCard/>
+        <div class="spacer_0_2em"></div>
         <@settingsDonationCard/>
-        <div class="spacer_1em"></div>
+        <div class="spacer_1_5em"></div>
         <@settingsResetButton/>
         <div class="spacer_4em"></div>
         <@settingsAuthor/>
