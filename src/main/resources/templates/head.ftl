@@ -13,5 +13,10 @@
     <link rel="stylesheet" href="/static/styles/fragments/buttons.css">
     <link rel="stylesheet" href="/static/styles/fragments/card.css">
     <script src="https://kit.fontawesome.com/2af22d8f17.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/static/scripts/themeController.js"></script>
+    <script type="text/javascript" src="/static/scripts/loader.js"></script>
     <title>MAI View</title>
 </head>
+
+
+
