@@ -11,6 +11,9 @@ function getColorTheme(){
 
 function setTheme(temp_theme){
     theme=temp_theme;
+    if (theme==='system'){
+        theme = getSystemTheme();
+    }
     localStorage.setItem('theme',theme);
 }
 
