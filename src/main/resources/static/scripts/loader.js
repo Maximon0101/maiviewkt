@@ -2,6 +2,11 @@ let theme;
 let color_theme;
 
 window.onload = function (){
-    theme = loadTheme();
-    color_theme=loadColorTheme();
+    theme = getTheme();
+    color_theme=getColorTheme();
+
+    if (theme === 'system') {
+        theme = getSystemTheme();
+    }
+
 }
